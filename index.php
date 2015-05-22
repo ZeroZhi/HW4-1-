@@ -2,9 +2,9 @@
 
 require "geometria.php";
  
-  $name = file_get_contents('name.txt');
+     $name = file_get_contents('name.txt');
   $surname = file_get_contents('surname.txt');
-  $summa = mb_strlen($name) + mb_strlen($surname);
+    $summa = mb_strlen($name) + mb_strlen($surname);
 
   if ($summa>10 && $summa<12) {
 
